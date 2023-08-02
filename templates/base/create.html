@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreateBook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-color: green;
+
+    }
+    .box-element{
+        background-color: #fff;
+        margin: 40px auto;
+        width: 700px;
+        padding: 40px;
+        box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);
+    }
+</style>
+
+<body>
+<h1 style="padding: 40px;text-align: center;color: #fff">Create Your Book</h1>
+<div class="box-element">
+    {% if request.user.is_authenticated %}
+        <h4 >Hello, {{ request.user }}</h4>
+        <a style="margin-left: 1px;margin-top: 2px;" class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+    {% else %}
+        <a>Login</a>
+    {% endif %}
+    <br>
+    <br>
+    <form method="post" action=" " enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-success" type="submit" value="Create">
+        <a class="btn btn-success" href="{% url 'index' %}">&#x2190;Back to</a>
+    </form>
+</div>
+<br>
+</body>
+</html>

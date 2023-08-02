@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body{
+        background-color: green;
+    }
+    .navbar{
+        display: grid;
+
+    }
+    .title{
+        color: #fff;
+        font-family: Signika;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .nav-link{
+        color: #fff;
+    }
+    .box-element{
+        width: 1200px;
+        background-color: #fff;
+        margin: auto;
+        padding: 40px;
+        box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);
+    }
+    .table-wrapper{
+        padding-top: 30px;
+    }
+    th,td{
+        height: 60px;
+    }
+    table,th,td{
+        color: black;
+        border: 1px solid #FFF981;
+    }
+    th{
+        width: 150px;
+        text-align: center;
+        background-color: #1873A0;
+        color: #fff;
+    }
+
+    .btn-success{
+        margin-left: 20px;
+        background-color: green;
+    }
+    .btn-info{
+        background-color: #FFAA17;
+        color: #ffff;
+        margin-left: 30px;
+    }
+    .btn-danger{
+        margin-left: 40px;
+        background-color: crimson;
+    }
+    .thumbnail{
+        width: 100%;
+        height: 150px;
+    }
+    .box-wrapper{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .icon-image{
+        width: 40px;
+        height: 40px;
+    }
+</style>
+<body>
+<nav class="navbar navbar-color">
+    <div class="container-fluid">
+        <h2 style="color: #ffff"><a>BookList</a></h2>
+        <li class="nav-link active"><a href="{% url 'index' %}" style="color: #ffff;text-decoration: none">Home</a></li>
+    </div>
+</nav>
+<h1 class="title">Revive Your Books</h1>
+<br>
+<div class="box-element">
+    <div class="box-wrapper">
+        <div class="box-flex">
+            {% if request.user.is_authenticated %}
+                <h4 >Hello, {{ request.user }}</h4>
+                <a style="margin-left: 1px;margin-top: 2px;" class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+            {% else %}
+                <a>Login</a>
+            {% endif %}
+        </div>
+       <button style="border: 1px whitesmoke;border-radius: 15%;">
+           <a href="{% url 'Create' %}">
+               <img class="icon-image" src="{% static 'book/plus.png' %}">
+           </a>
+       </button>
+    </div>
+    <br>
+    <br>
+    <table class="table-wrapper">
+        <th>Cover</th>
+        <th>Name of Book</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>Date</th>
+        <th>Read Data</th>
+        <th>Update Data</th>
+        <th>Delete Data</th>
+        {% for task in booklist %}
+            <tr>
+                <td><img class="thumbnail" src="{{ task.cover }}"></td>
+                <td>{{ task.title }}</td>
+                <td>{{ task.author }}</td>
+                <td><h6>${{ task.price }}</h6></td>
+                <td>{{ task.created }}</td>
+                <td><a class="btn btn-success" href="{% url 'view' task.id %}">View Book</a></td>
+                <td><a class="btn btn-info" href="{% url 'update' task.id %}">Update</a></td>
+                <td><a class="btn btn-danger"href="{% url 'delete' task.id %}">Delete</a></td>
+            </tr>
+        {% empty %}
+            <h3>No Items are added here!</h3>
+        {% endfor %}
+    </table>
+</div>
+<br>
+</body>
+</html>

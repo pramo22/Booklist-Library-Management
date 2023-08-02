@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9dac095c-36b9-43a1-a7a4-30a3502fd6ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Dell\PycharmProjects\Book\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JupyterTrust" id="22140e5d-f8c7-41ed-a2cd-07ea52c924fc" />
+  <component name="ProjectId" id="2AmZJlV9ZuaV64GUMtXSMm1Brjy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/Videouploader" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Book" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dac095c-36b9-43a1-a7a4-30a3502fd6ea" name="Default Changelist" comment="" />
+      <created>1655616654585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655616654585</updated>
+      <workItem from="1655616662367" duration="1683000" />
+      <workItem from="1655618453772" duration="1626000" />
+      <workItem from="1655620319124" duration="1832000" />
+      <workItem from="1655622317504" duration="1740000" />
+      <workItem from="1655624267194" duration="1134000" />
+      <workItem from="1655635925810" duration="1706000" />
+      <workItem from="1655637785554" duration="1733000" />
+      <workItem from="1655639653924" duration="1737000" />
+      <workItem from="1655641469152" duration="1548000" />
+      <workItem from="1655643093325" duration="1745000" />
+      <workItem from="1655644919768" duration="1746000" />
+      <workItem from="1655646755273" duration="103000" />
+      <workItem from="1655698631574" duration="1704000" />
+      <workItem from="1655700443976" duration="1732000" />
+      <workItem from="1655702273350" duration="1096000" />
+      <workItem from="1655704705881" duration="1702000" />
+      <workItem from="1655706577946" duration="1156000" />
+      <workItem from="1655708298534" duration="1405000" />
+      <workItem from="1655710834378" duration="607000" />
+      <workItem from="1655711800255" duration="1705000" />
+      <workItem from="1655713619516" duration="437000" />
+      <workItem from="1655736491324" duration="551000" />
+      <workItem from="1655743037750" duration="1556000" />
+      <workItem from="1655744946070" duration="521000" />
+      <workItem from="1655746797616" duration="1655000" />
+      <workItem from="1655748625476" duration="1698000" />
+      <workItem from="1655750462078" duration="478000" />
+      <workItem from="1655782205101" duration="1684000" />
+      <workItem from="1655784030664" duration="1714000" />
+      <workItem from="1655785889389" duration="1712000" />
+      <workItem from="1655787702303" duration="1740000" />
+      <workItem from="1655789563308" duration="1734000" />
+      <workItem from="1655791385301" duration="1729000" />
+      <workItem from="1655793211183" duration="1735000" />
+      <workItem from="1655795052488" duration="657000" />
+      <workItem from="1655816662251" duration="1699000" />
+      <workItem from="1655818625707" duration="1682000" />
+      <workItem from="1655820547482" duration="1682000" />
+      <workItem from="1655822332885" duration="1731000" />
+      <workItem from="1655824250930" duration="295000" />
+      <workItem from="1655879668288" duration="1706000" />
+      <workItem from="1655881615950" duration="1285000" />
+      <workItem from="1655886814050" duration="1704000" />
+      <workItem from="1655889219369" duration="1669000" />
+      <workItem from="1655891124865" duration="119000" />
+      <workItem from="1655899955090" duration="1352000" />
+      <workItem from="1655901721785" duration="460000" />
+      <workItem from="1655908554338" duration="1736000" />
+      <workItem from="1655910489293" duration="1363000" />
+      <workItem from="1655912674399" duration="1678000" />
+      <workItem from="1655914477401" duration="1677000" />
+      <workItem from="1655917051634" duration="337000" />
+      <workItem from="1655917599067" duration="223000" />
+      <workItem from="1655949308814" duration="1688000" />
+      <workItem from="1655951210446" duration="1212000" />
+      <workItem from="1655963016551" duration="1257000" />
+      <workItem from="1656078600144" duration="1391000" />
+      <workItem from="1656230089603" duration="29000" />
+      <workItem from="1656311543896" duration="664000" />
+      <workItem from="1656390881000" duration="1677000" />
+      <workItem from="1656392686390" duration="799000" />
+      <workItem from="1656584157502" duration="27000" />
+      <workItem from="1657255251215" duration="1458000" />
+      <workItem from="1657256865787" duration="883000" />
+      <workItem from="1657344641402" duration="41000" />
+      <workItem from="1657425865557" duration="94000" />
+      <workItem from="1657547778120" duration="309000" />
+      <workItem from="1657602184384" duration="408000" />
+      <workItem from="1664980475904" duration="1635000" />
+      <workItem from="1664982268047" duration="1247000" />
+      <workItem from="1665828155622" duration="24000" />
+      <workItem from="1666704176995" duration="32000" />
+      <workItem from="1666966609986" duration="41000" />
+      <workItem from="1672295175939" duration="771000" />
+      <workItem from="1673855597896" duration="446000" />
+      <workItem from="1674137804277" duration="1215000" />
+      <workItem from="1674449555677" duration="985000" />
+      <workItem from="1674574246038" duration="1254000" />
+      <workItem from="1674576139751" duration="907000" />
+      <workItem from="1676292583986" duration="1384000" />
+      <workItem from="1676299689352" duration="40000" />
+      <workItem from="1676354430998" duration="203000" />
+      <workItem from="1676373617111" duration="495000" />
+      <workItem from="1677241059109" duration="38000" />
+      <workItem from="1677299974995" duration="31000" />
+      <workItem from="1677473135451" duration="252000" />
+      <workItem from="1677476735370" duration="441000" />
+      <workItem from="1677491662716" duration="337000" />
+      <workItem from="1690977756942" duration="287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1690977786268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1690977786268" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1690977758486">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1690977758486" />
+  </component>
+</project>

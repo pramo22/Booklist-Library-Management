@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ViewBook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-color: green;
+    }
+    .box-element{
+        width: 1000px;
+        margin: 30px auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);;
+    }
+    .thumbnail{
+        width: 15%;
+        height: 250px;
+    }
+</style>
+<body>
+<h1 style="text-align: center;color: #fff;font-family: Signika;margin-top: 30px">View Your Book</h1>
+<div class="box-element">
+    <h4>{{ tasks.title }}</h4>
+    <img class="thumbnail" src="{{ tasks.imageURL }}">
+    <br>
+    <br>
+    <h4>Author: {{ tasks.author }}</h4>
+    <br>
+    <h4>Price: {{ tasks.price }}</h4>
+    <p>{{ tasks.description }}</p>
+    <br>
+    <h6>Book:  <a href="{{ tasks.book.url }}">{{ tasks.book }}</a></h6>
+    <br>
+    <a class="btn btn-success" href="{% url 'index' %}">&#x2190;Back to</a>
+</div>
+</body>
+</html>

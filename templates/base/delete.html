@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeleteBook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-color: green;
+    }
+    .box-element{
+        width: 1000px;
+        margin: 30px auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);;
+        background-color: #fff;
+    }
+    .thumbnail{
+        width: 25%;
+        height: 250px;
+    }
+    p{
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+<body>
+<h1 style="padding: 30px;text-align: center;font-family: Signika;">Delete Your Book</h1>
+<div class="box-element">
+    <form method="post" action=" ">
+        {% csrf_token %}
+        <p>Are you sure you want to delete?</p>
+        <h4>{{ booktask.title }}</h4>
+        <br>
+        <img class="thumbnail" src="{{ booktask.imageURL }}">
+        <br>
+        <br>
+        <input class="btn btn-danger" type="submit" value="Delete">
+        <a class="btn btn-success" href="{% url 'index' %}">&#x2190;Back to</a>
+
+</form>
+</div>
+
+<br>
+</body>
+</html>
