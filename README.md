@@ -16,4 +16,4 @@ python manage.py runserver
 
 # Screenshots:
 ![Registration Page](Registration.png)
-![Login Page](Log in.png)
+
