@@ -21,5 +21,10 @@ python manage.py runserver
 <br>
 ![Home Page](Home.png)
 <br>
-![Create Page][Create.png]
-
+![Create Page](Create.png)
+<br>
+![Update Page](Update.png)
+<br>
+![Retrieve Page](Retrieve.png)
+<br>
+![Delete Page](Delete.png)
