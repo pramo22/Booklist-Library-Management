@@ -16,5 +16,10 @@ python manage.py runserver
 
 # Screenshots:
 ![Registration Page](Registration.png )
-![Login Page]()
+<br>
+![Login Page](Login.png)
+<br>
+![Home Page](Home.png)
+<br>
+![Create Page][Create.png]
 
