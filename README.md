@@ -15,5 +15,6 @@ python manage.py migrate.
 python manage.py runserver
 
 # Screenshots:
-![Registration Page](Registration.png)
+![Registration Page](Registration.png )
+![Login Page]()
 
